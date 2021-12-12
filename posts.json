@@ -1,0 +1,23 @@
+{
+    "test":{
+        "title":"math",
+        "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        "price":8000,
+        "condition":"Good",
+        "ownerID": 1
+    },
+    "second":{
+        "title":"physics",
+        "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        "price":23000,
+        "condition":"Good",
+        "ownerID": 1
+    },
+    "third":{
+        "title":"computer architecture",
+        "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        "price":18000,
+        "condition":"SoSo",
+        "ownerID": 1
+    }
+}
