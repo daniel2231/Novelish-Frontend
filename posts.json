@@ -1,5 +1,6 @@
 {
     "test":{
+        "bookID": 1,
         "title":"math",
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":8000,
@@ -7,6 +8,7 @@
         "ownerID": 1
     },
     "second":{
+        "bookID": 2,
         "title":"physics",
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":23000,
@@ -14,6 +16,7 @@
         "ownerID": 1
     },
     "third":{
+        "bookID": 3,
         "title":"computer architecture",
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":18000,
