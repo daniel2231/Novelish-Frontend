@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import Link from "next/link";
 import { useState } from "react";
 import { Drawer, Button } from "antd";
-import { MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined, HomeOutlined, UploadOutlined, UserOutlined} from "@ant-design/icons";
 
 const Nav = styled.nav`
   width: 100%;
@@ -44,6 +45,12 @@ const InnerDivNav = styled.div`
   }
 `;
 
+const StyledA = styled.a`
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+`
+
 function Navbar(props) {
   const [visible, setVisible] = useState(false);
 
@@ -55,7 +62,9 @@ function Navbar(props) {
         </div>
         <Menu>
           {props.page === "main" ? (
-            <Button ghost href="/login">Login / Sign Up</Button>
+            <Button ghost href="/login">
+              Login / Sign Up
+            </Button>
           ) : (
             <>
               <MenuBtn ghost onClick={() => setVisible(true)}>
@@ -68,9 +77,15 @@ function Navbar(props) {
                 onClose={() => setVisible(false)}
                 visible={visible}
               >
-                <p>Some contents...</p>
-                <p>Some contents...</p>
-                <p>Some contents...</p>
+                <Link href="/main">
+                  <StyledA><HomeOutlined /> Home</StyledA>
+                </Link>
+                <Link href="/upload">
+                  <StyledA><UploadOutlined /> Upload</StyledA>
+                </Link>
+                <Link href="/account">
+                  <StyledA><UserOutlined /> My Account</StyledA>
+                </Link>
               </Drawer>
             </>
           )}

@@ -5,7 +5,8 @@
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":8000,
         "condition":"Good",
-        "ownerID": 1
+        "ownerID": 1,
+        "id": 1
     },
     "second":{
         "bookID": 2,
@@ -13,7 +14,8 @@
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":23000,
         "condition":"Good",
-        "ownerID": 1
+        "ownerID": 1,
+        "id": 2
     },
     "third":{
         "bookID": 3,
@@ -21,6 +23,7 @@
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":18000,
         "condition":"SoSo",
-        "ownerID": 1
+        "ownerID": 1,
+        "id": 3
     }
 }
