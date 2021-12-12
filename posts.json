@@ -4,20 +4,23 @@
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":8000,
         "condition":"Good",
-        "ownerID": 1
+        "ownerID": 1,
+        "id": 1
     },
     "second":{
         "title":"physics",
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":23000,
         "condition":"Good",
-        "ownerID": 1
+        "ownerID": 1,
+        "id": 2
     },
     "third":{
         "title":"computer architecture",
         "imgSrc":"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
         "price":18000,
         "condition":"SoSo",
-        "ownerID": 1
+        "ownerID": 1,
+        "id": 3
     }
 }
