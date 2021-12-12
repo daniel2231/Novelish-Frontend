@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Card, Select, Button } from "antd";
 import Link from "next/link";
 import Navbar from "../components/Navbar/Navbar";
-import posts from "../posts.json";
+import books from '../posts.json'
+import user from "../users.json"
 
 const MainDiv = styled.div`
   padding: 100px 50px;
@@ -21,6 +22,7 @@ function handleChange(value) {
   console.log(`selected ${value}`);
 }
 
+let filtered = books.filter(it => it.ownerID==1);
 export default function Account() {
   return (
     <>
@@ -29,7 +31,7 @@ export default function Account() {
       <MainDiv>
         <h1>My books</h1>
         <CardContainer>
-          {Object.entries(posts).map((value, index) => {
+          {Object.entries(filtered).map((value, index) => {
             return (
               <div key={index}>
                 <Link href={`/books/${value[1].id}`}>
